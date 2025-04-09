@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cestování po světě</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .destination {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .destination div {
+            flex: 1;
+            min-width: 200px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .destination img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cestování po světě</h1>
+    <p>Objevte krásy různých koutů světa!</p>
+</header>
+
+<nav>
+    <a href="#home">Domů</a>
+    <a href="#destinations">Destinace</a>
+    <a href="#contact">Kontakt</a>
+</nav>
+
+<div class="container">
+    <section id="home">
+        <h2>Vítejte na našem webu!</h2>
+        <p>Na této stránce najdete inspiraci pro své cesty po celém světě. Ať už hledáte exotické pláže, historická města nebo dobrodružství v přírodě, máme pro vás spoustu tipů.</p>
+    </section>
+
+    <section id="destinations">
+        <h2>Naše doporučené destinace</h2>
+        <div class="destination">
+            <div>
+                <img src="https://via.placeholder.com/400x250" alt="Pláž">
+                <h3>Exotické pláže</h3>
+                <p>Pro ty, kteří touží po písečných plážích a azurovém moři.</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/400x250" alt="Hory">
+                <h3>Hory a příroda</h3>
+                <p>Pro milovníky turistiky a horských výšlapů.</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/400x250" alt="Město">
+                <h3>Historická města</h3>
+                <p>Pro ty, kdo mají rádi historii a kulturu.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontaktujte nás</h2>
+        <p>Máte dotazy nebo potřebujete poradit? Napište nám na email: info@cestovani.cz</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Cestování po světě</p>
+</footer>
+
+</body>
+</html>
